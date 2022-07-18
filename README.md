@@ -1,5 +1,6 @@
-Bài tập layout react :
-cấu trúc: BaiTapLayoutComponent{
+Cấu trúc bài tập layout react :
+
+BaiTapLayoutComponent{
 
        # Header
 
@@ -8,4 +9,4 @@ cấu trúc: BaiTapLayoutComponent{
             *Item
         }
        # Footer
-    }
+}

@@ -1,0 +1,37 @@
+.wrapper {
+  background-image: url(../glassesImage/background.jpg);
+  background-size: cover;
+}
+.wrapper-rbga {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0;
+  color: #fff;
+}
+.app {
+  padding: 50px 0;
+}
+.app .row {
+  justify-content: center;
+  gap: 0 200px;
+}
+.app .row .card {
+  background-image: url(../glassesImage/model.jpg);
+  background-size: cover;
+  /* background-position: center center; */
+  height: 500px;
+  position: relative;
+}
+.app .row .card img {
+  width: 60%;
+  position: absolute;
+  margin: 0 auto;
+  right: 64px;
+  top: 127px;
+}
+.app .row .card .card-body {
+  margin-top: 330px;
+  background-color: rgba(251, 192, 147, 0.5);
+}

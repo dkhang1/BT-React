@@ -1,4 +1,4 @@
-Bài tập layout react :
+Bài tập 1 :layout react :
 cấu trúc: BaiTapLayoutComponent{
 
        # Header
@@ -9,3 +9,4 @@ cấu trúc: BaiTapLayoutComponent{
         }
        # Footer
     }
+Bài tập 2 : Glasses

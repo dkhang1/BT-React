@@ -31,6 +31,7 @@
   margin: 0 auto;
   right: 64px;
   top: 127px;
+  opacity: 0.8;
 }
 .app .row .card .card-body {
   margin-top: 330px;

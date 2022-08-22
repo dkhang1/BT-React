@@ -11,20 +11,21 @@ import BaiTapForm from "./BaiTapForm/BaiTapForm";
 // redux
 import { Provider } from "react-redux";
 import { store } from "./redux/configStore";
+import BtBookingTicket from "./BaiTapVeXemPhim/BtBookingTicket";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-
   <Provider store={store}>
     <BrowserRouter>
       <Routes>
         <Route path="" element={<App />}>
-          <Route path="" element={<BaiTapLayout/>}></Route>
+          <Route path="" element={<BaiTapLayout />}></Route>
           <Route path="component" element={<BaiTapLayout />}></Route>
           <Route path="state" element={<BaiTapGlasses />}></Route>
           <Route path="prop" element={<ExersiseCart />}></Route>
           <Route path="reduxform" element={<BaiTapForm />}></Route>
         </Route>
+        <Route path="movieticket" element={<BtBookingTicket />}></Route>
       </Routes>
     </BrowserRouter>
   </Provider>

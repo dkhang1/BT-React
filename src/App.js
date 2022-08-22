@@ -62,6 +62,16 @@ function App() {
                 Bài tập Redux Form
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "bg-dark text-white nav-link" : "nav-link"
+                }
+                to="/movieticket"
+              >
+                Bài tập vé xem phim
+              </NavLink>
+            </li>
           </ul>
         </div>
       </nav>

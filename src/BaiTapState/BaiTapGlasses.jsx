@@ -73,17 +73,17 @@ export default class BaiTapGlasses extends Component {
     return data.map((glasses, index) => {
       return (
         <div className="col-2" key={index}>
-          <Glasses glasses={glasses} renderDetail={this.renderDetail}/>
+          <Glasses glasses={glasses} renderDetail={this.renderDetail} />
         </div>
       );
     });
   };
 
-    renderDetail = (glassesClick) => {
-      this.setState({
-        detailGlasses: glassesClick,
-      });
-    };
+  renderDetail = (glassesClick) => {
+    this.setState({
+      detailGlasses: glassesClick,
+    });
+  };
 
   state = {
     detailGlasses: {
@@ -113,15 +113,13 @@ export default class BaiTapGlasses extends Component {
                   <img src={url} alt="" />
                   <div className="card-body">
                     <h2>{name}</h2>
-                    <p >{desc}</p>
+                    <p>{desc}</p>
                     <p className="m-0">{price}$</p>
                   </div>
                 </div>
               </div>
               <div className="col-3">
-                <div className="card">
-                  <img src={url} alt="..." />
-                </div>
+                <div className="card"></div>
               </div>
             </div>
           </div>

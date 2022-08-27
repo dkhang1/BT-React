@@ -37,7 +37,7 @@ class TicketInformation extends Component {
                   <td>{seat.soGhe}</td>
                   <td>{seat.gia.toLocaleString()}</td>
                   <td>
-                    <button
+                    <button 
                       className="btn border-0 text-danger"
                       onClick={() => {
                         const action = {

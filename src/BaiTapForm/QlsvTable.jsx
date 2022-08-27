@@ -24,7 +24,20 @@ class QlsvTable extends Component {
                 <td>{sv.sdt}</td>
                 <td>{sv.email}</td>
                 <td>
-                  <button className="btn btn-success">Sửa</button>
+                  <button
+                    className="btn btn-success"
+                    onClick={() => {
+                      const action = {
+                        type: "SUA_SINH_VIEN",
+                        payload: {
+                          sinhVienCapNhat: sv,
+                        },
+                      };
+                      this.props.dispatch(action);
+                    }}
+                  >
+                    Sửa
+                  </button>
                   <button
                     className="btn btn-danger ms-2"
                     onClick={() => {
